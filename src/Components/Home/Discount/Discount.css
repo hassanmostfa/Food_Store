@@ -1,0 +1,41 @@
+.discount .container{
+    background-image: url(../../../../public/images/offer_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.discount .text{
+    width: 450px;
+    margin-left: 50px;
+}
+
+.discount .text h1{
+    font-size: 30px !important;
+    color: white;
+}
+
+.discount .text p{
+    margin-bottom: 0;
+}
+
+.discount_end{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.discount_end h1{
+    color:var(--orange-color) !important;
+}
+
+.discount_end sub{
+    text-decoration: line-through;
+    color: white !important;
+    font-size: 15px !important;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

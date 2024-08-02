@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+:root{
+    --orange-color: #ff8e28;
+    --alt-color: #f8f8f8;
+    --green-color: #00a850;
+    --light-color: #8d8d8d;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+a{
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul li{
+    list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+.subtitle{
+    font-family: 'Playwrite BE VLG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ff8e28;
+    margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
+.title{
+    font-size:45px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #8d8d8d;
+}
+
+.green_btn{
+    background-color:#00a850;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.green_btn:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.to_top_icon{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #00a850;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+    z-index: 10;
+}
+
+.to_top_icon:hover{
+    opacity: 0.8;
+    transition: 0.3s;
     transform: rotate(360deg);
-  }
 }

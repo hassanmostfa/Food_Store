@@ -1,0 +1,27 @@
+.download .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+    gap: 50px;
+}
+
+.download .right_row{
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 867px) {
+    .download .container{
+        flex-direction: column;
+    }
+    .download .right_row{
+        text-align: center;
+    }
+}
+
+.sources{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
